@@ -202,7 +202,7 @@ function GetReplyMessage($text,$myUserId) {
 				  "altText"=> "G10T Portal",
 				  "template"=> [
 				      "type"=> "buttons",
-				      "thumbnailImageUrl"=> "https://powerful-castal-84429.herokuapp.com/login.jpg",
+				      "thumbnailImageUrl"=> "https://powerful-castle-84429.herokuapp.com/login.jpg",
 				      "title"=> "G10T Portal",
 				      "text"=> "Go to G10T Portal",
 				      "actions"=> array([
