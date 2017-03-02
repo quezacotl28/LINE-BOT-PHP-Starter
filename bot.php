@@ -34,7 +34,7 @@ if (!is_null($events['events'])) {
 			$messages = GetReplyMessage($text,$userId);
 				
 				
-			if (!is_null($messages) && (!$shortup) ) {
+			if (!is_null($messages) ) {
 
 				// Make a POST Request to Messaging API to reply to sender
 
