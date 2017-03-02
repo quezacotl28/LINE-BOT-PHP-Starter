@@ -72,7 +72,7 @@ function GetReplyMessage($text,$myUserId) {
 	}	
 	   
 	// Build message to reply back
-	if (stripos($text, "ดี") !== false) {
+	if (stripos($text, "สวัสดี") !== false) {
 		//$messages = [[
 		//  'type'=> 'sticker',
 		//  'packageId'=> '1',
@@ -80,7 +80,7 @@ function GetReplyMessage($text,$myUserId) {
 		//]];
 		$messages = [[
 			'type' => 'text',
-			'text' => 'ดี'
+			'text' => 'สวัสดีครับ'
 		]];
 	} else if (stripos($text, "บ้า") !== false) {
 		$messages = [[
@@ -196,19 +196,19 @@ function GetReplyMessage($text,$myUserId) {
 			'text' => "ค่า server โอนมาที่ \n 718-258-018-4 \n กสิกร \n วิทยา จงอุดมพร"
 		]];
 		
-	} else if (stripos($text, "Cfx toms2") !== false) {	
+	} else if (stripos($text, "G10T") !== false) {	
 		$messages = [[
 				  "type"=> "template",
-				  "altText"=> "TOMS2 Demo",
+				  "altText"=> "G10T Portal",
 				  "template"=> [
 				      "type"=> "buttons",
-				      "thumbnailImageUrl"=> "https://fathomless-anchorage-14853.herokuapp.com/login.JPG",
-				      "title"=> "TOMS2 DEMO",
-				      "text"=> "Go to Toms2 demo",
+				      "thumbnailImageUrl"=> "https://powerful-castal-84429.herokuapp.com/login.JPG",
+				      "title"=> "G10T Portal",
+				      "text"=> "Go to G10T Portal",
 				      "actions"=> array([
 					    "type"=> "uri",
 					    "label"=> "View detail",
-					    "uri"=> "http://tomsdev.apps.thaibev.com/Toms2"
+					    "uri"=> "http://www.garage10t.com"
 					  ]
 				      )
 				  ]
