@@ -61,15 +61,15 @@ if (!is_null($events['events'])) {
 function GetReplyMessage($text,$myUserId) {
 	$serviceUrl = 'http://vsmsdev.apps.thaibev.com/linebot/linebotWCF';
 	
-	/*if(stripos($text, "หุบปาก") !== false){
+	if(stripos($text, "ปิดบอท") !== false){
 		$myfile = fopen("text.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, 1);
 		fclose($myfile);
-	} else if(stripos($text, "อ้าปาก")!== false){
+	} else if(stripos($text, "เปิดบอท")!== false){
 		$myfile = fopen("text.txt", "w") or die("Unable to open file!");
 		fwrite($myfile, 0);
 		fclose($myfile);
-	}	*/
+	}	
 	   
 	// Build message to reply back
 	if (stripos($text, "ดี") !== false) {
