@@ -138,11 +138,6 @@ function GetReplyMessage($text,$myUserId) {
 			'type' => 'text',
 			'text' => 'พรุ่งนี้รวยๆ'
 		]];
-	} else if (stripos($text, "หอย") !== false) {		
-		$messages = [[
-			'type' => 'text',
-			'text' => 'หาเองเองดิ'
-		]];
 	} else if (stripos($text, "รวย") !== false) {		
 		$messages = [[
 			'type' => 'text',
@@ -152,21 +147,6 @@ function GetReplyMessage($text,$myUserId) {
 		$messages = [[
 			'type' => 'text',
 			'text' => 'ต่อไหน ใครรู้บ้าง'
-		]];
-	} else if (stripos($text, "เม") !== false) {		
-		$messages = [[
-			'type' => 'text',
-			'text' => 'เมอยู่บ้าน ม่านปิดอยู่'
-		]];
-	} else if (stripos($text, "เย") !== false) {		
-		$messages = [[
-			'type' => 'text',
-			'text' => 'เยที่่ไหน ใครรู้บ้าง'
-		]];
-	} else if (stripos($text, "ใคร") !== false) {		
-		$messages = [[
-			'type' => 'text',
-			'text' => 'กุไงจะใครละ'
 		]];
 	} else if (stripos($text, "ไบ้หวยหน่อย") !== false) {	
 		$digits = 3;
